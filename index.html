@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>佛山道路救援_佛山高速汽车救援_佛山拖车搭电换胎24小时就近派车</title>
+<meta name="description" content="佛山道路救援24小时待命，拖车、搭电、换胎、送油、困境脱困、长途托运就近派车。熟悉佛山绕城高速与各区县路况，师傅平均20分钟到场，价格提前告知，电话400-808-2010。">
+<meta name="keywords" content="佛山道路救援,佛山拖车,佛山汽车搭电,佛山高速救援,佛山换胎送油">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;background:#f4f6f9;color:#1f2733;line-height:1.75;padding-top:54px;padding-bottom:76px}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+.wrap-vmo{max-width:1024px;margin:0 auto;padding:0 16px}
+
+/* 顶部导航 */
+.nav-vmo{position:fixed;top:0;left:0;right:0;z-index:100;background:#101b2c;box-shadow:0 2px 10px rgba(0,0,0,.28)}
+.nav-in-vmo{max-width:1024px;margin:0 auto;height:54px;padding:0 16px;display:flex;align-items:center;justify-content:space-between}
+.brand-vmo{color:#fff;font-size:17px;font-weight:700;letter-spacing:.4px}
+.brand-vmo span{color:#ffb03a}
+.nav-tel-vmo{color:#fff;background:#e8452c;padding:7px 13px;font-size:13px;font-weight:700;letter-spacing:.3px}
+.nav-tel-vmo:hover{background:#cf3a22}
+
+/* 首屏 */
+.hero-vmo{background:linear-gradient(135deg,#0b3d91 0%,#123a6b 48%,#0a1f3d 100%);color:#fff;padding:42px 0 38px}
+.hero-tag-vmo{display:inline-block;font-size:12px;letter-spacing:1px;color:#ffe1a8;border:1px solid rgba(255,225,168,.55);padding:3px 10px;margin-bottom:16px}
+.hero-h1-vmo{font-size:clamp(22px,6vw,34px);line-height:1.42;font-weight:800;letter-spacing:.5px;margin-bottom:14px}
+.hero-p-vmo{font-size:14px;color:#c9d8ee;max-width:640px;margin-bottom:22px}
+.hero-btn-vmo{display:inline-block;background:#ff7a18;color:#fff;font-size:18px;font-weight:800;padding:14px 30px;border-radius:999px;box-shadow:0 8px 20px rgba(255,122,24,.35);letter-spacing:.5px}
+.hero-btn-vmo:hover{background:#f06a0a}
+.hero-note-vmo{margin-top:14px;font-size:12.5px;color:#9db4d3}
+
+/* 通用板块 */
+.sec-vmo{padding:34px 0}
+.sec-alt-vmo{background:#fff}
+.h2-vmo{font-size:20px;font-weight:800;line-height:1.4;position:relative;padding-left:13px;margin-bottom:8px}
+.h2-vmo::before{content:"";position:absolute;left:0;top:7px;bottom:7px;width:4px;background:#e8452c}
+.lead-vmo{font-size:13.5px;color:#5b6675;margin-bottom:20px}
+
+/* 服务项目 */
+.svc-grid-vmo{display:grid;grid-template-columns:1fr;gap:12px}
+@media(min-width:640px){.svc-grid-vmo{grid-template-columns:1fr 1fr}}
+.svc-card-vmo{background:#fff;border:1px solid #dfe6f0;padding:16px 16px 18px}
+.svc-card-vmo h3{font-size:16px;color:#0e3d7a;font-weight:700;margin-bottom:6px}
+.svc-card-vmo p{font-size:13.5px;color:#4a5462}
+
+/* 覆盖范围 */
+.area-list-vmo{display:grid;gap:10px}
+.area-list-vmo li{background:#fff;border-left:3px solid #0e5fd8;padding:11px 14px;font-size:13.5px;color:#39434f}
+@media(min-width:640px){.area-list-vmo{grid-template-columns:1fr 1fr}}
+
+/* 收费说明 */
+.fee-box-vmo{background:#fff;border:1px dashed #c8d6ea;padding:18px 16px}
+.fee-box-vmo li{font-size:13.5px;color:#3d4753;padding:7px 0 7px 16px;position:relative;border-bottom:1px dotted #e4eaf2}
+.fee-box-vmo li:last-child{border-bottom:0}
+.fee-box-vmo li::before{content:"";position:absolute;left:0;top:16px;width:6px;height:6px;background:#ff7a18;border-radius:50%}
+.fee-box-vmo b{color:#0e3d7a}
+
+/* 流程 */
+.step-list-vmo{display:grid;gap:12px}
+@media(min-width:640px){.step-list-vmo{grid-template-columns:1fr 1fr}}
+.step-vmo{background:#fff;border:1px solid #e2e8f1;padding:14px 16px 16px;position:relative}
+.step-num-vmo{display:inline-block;font-size:13px;font-weight:800;color:#fff;background:#0e3d7a;padding:1px 9px;margin-bottom:8px;letter-spacing:1px}
+.step-vmo h3{font-size:15.5px;color:#1b2b45;margin-bottom:4px}
+.step-vmo p{font-size:13.5px;color:#4a5462}
+
+/* 核心优势 */
+.adv-grid-vmo{display:grid;gap:12px}
+@media(min-width:700px){.adv-grid-vmo{grid-template-columns:1fr 1fr}}
+.adv-item-vmo{background:#eef4fd;border:1px solid #d3e2f8;padding:15px 16px}
+.adv-item-vmo h3{font-size:15.5px;color:#0b3d7a;margin-bottom:5px}
+.adv-item-vmo p{font-size:13.5px;color:#425064}
+
+/* 案例 */
+.case-item-vmo{background:#fff;border-left:4px solid #ffb03a;padding:13px 16px;margin-bottom:11px}
+.case-item-vmo h3{font-size:15px;color:#1b2b45;margin-bottom:3px}
+.case-item-vmo p{font-size:13.5px;color:#4a5462}
+.case-item-vmo em{font-style:normal;color:#e8452c;font-weight:700}
+
+/* FAQ */
+.faq-item-vmo{background:#fff;border:1px solid #e2e8f1;padding:14px 16px;margin-bottom:11px}
+.faq-item-vmo h3{font-size:15px;color:#0e3d7a;margin-bottom:6px;line-height:1.6}
+.faq-item-vmo p{font-size:13.5px;color:#4a5462}
+
+/* 联系转化 */
+.cta-vmo{background:linear-gradient(120deg,#b3240c,#e8452c 60%,#ff7a18);color:#fff;text-align:center;padding:38px 0}
+.cta-vmo h2{font-size:20px;font-weight:800;margin-bottom:16px}
+.cta-btn-vmo{display:inline-block;background:#fff;color:#c22c14;font-size:22px;font-weight:800;padding:13px 34px;border-radius:8px;letter-spacing:.5px;box-shadow:0 8px 18px rgba(0,0,0,.18)}
+.cta-tip-vmo{font-size:13px;color:#ffe2d6;margin-top:12px}
+
+/* 页脚 */
+.foot-vmo{background:#101b2c;color:#93a3b9;font-size:13px;text-align:center;padding:26px 16px 30px;line-height:2}
+.foot-vmo strong{color:#fff}
+.foot-vmo a{color:#ffb03a}
+
+/* 悬浮电话 */
+.call-float-vmo{position:fixed;left:14px;right:14px;bottom:14px;z-index:120;display:block;text-align:center;background:#e8452c;color:#fff;font-size:17px;font-weight:800;padding:13px 0;border-radius:8px;box-shadow:0 8px 22px rgba(232,69,44,.42);letter-spacing:.5px}
+@media(min-width:768px){.call-float-vmo{display:none}body{padding-bottom:0}}
+</style>
+</head>
+<body>
+
+<header class="nav-vmo">
+  <div class="nav-in-vmo">
+    <div class="brand-vmo">悟空道路救援<span>道路救援</span></div>
+    <a class="nav-tel-vmo" href="tel:400-808-2010">400-808-2010</a>
+  </div>
+</header>
+
+<!-- 首屏 -->
+<section class="hero-vmo">
+  <div class="wrap-vmo">
+    <p class="hero-tag-vmo">24 小时在线 · 佛山全境就近派车</p>
+    <h1 class="hero-h1-vmo">佛山道路救援：拖车、搭电、换胎，一个电话师傅就出发</h1>
+    <p class="hero-p-vmo">车打不着火、半路爆胎、事故车挪不动？悟空道路救援的救援车在佛山绕城高速、城区主干道和周边乡镇循环驻点，接到电话立刻动身。师傅到场先讲清处理方案和费用，确认后再动手，不玩上车加价那一套。</p>
+    <a class="hero-btn-vmo" href="tel:400-808-2010">立即拨打 400-808-2010</a>
+    <p class="hero-note-vmo">先报价后施救 · 市区平均 20 分钟到场 · 可开正规发票</p>
+  </div>
+</section>
+
+<!-- 服务项目 -->
+<section class="sec-vmo" id="services">
+  <div class="wrap-vmo">
+    <h2 class="h2-vmo">佛山道路救援服务项目</h2>
+    <p class="lead-vmo">不管是日常通勤路上抛锚，还是跑高速时出状况，下面这些活儿都能接。</p>
+    <div class="svc-grid-vmo">
+      <article class="svc-card-vmo">
+        <h3>平板拖车牵引</h3>
+        <p>平板车配小叉车，底盘低的轿车、改装车也能稳稳上车；事故车、碰撞后方向跑偏的车辆可全程固定托运，不二次损伤。</p>
+      </article>
+      <article class="svc-card-vmo">
+        <h3>电瓶搭电启动</h3>
+        <p>忘记关大灯、停放太久导致亏电打不着火，师傅带便携启动电源上门，冷天低温启动困难也能一次点火，不用再找人推车。</p>
+      </article>
+      <article class="svc-card-vmo">
+        <h3>现场换胎补胎</h3>
+        <p>备胎更换、螺丝锈死拧不动、轮胎扎钉慢漏气，路边直接作业；缺备胎的可以先临时处理，再开去附近门店换新。</p>
+      </article>
+      <article class="svc-card-vmo">
+        <h3>应急送油送水</h3>
+        <p>油表见底、离加油站还远，送 92／95 号汽油或柴油到车边，按实际加注升数结算；水箱开锅缺防冻液也能一并带过来。</p>
+      </article>
+      <article class="svc-card-vmo">
+        <h3>困境脱困救援</h3>
+        <p>车轮陷进泥地、上马路牙子托底、地下车库溜坡卡住，用绞盘牵引配合垫板脱困，尽量不伤保险杠和底盘护板。</p>
+      </article>
+      <article class="svc-card-vmo">
+        <h3>长途车辆托运</h3>
+        <p>异地提车、二手车调运、跨市搬家随车走，按里程报价，装车前后拍照留档，途中可随时电话询问车辆位置。</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 服务覆盖范围 -->
+<section class="sec-vmo sec-alt-vmo">
+  <div class="wrap-vmo">
+    <h2 class="h2-vmo">服务覆盖范围</h2>
+    <p class="lead-vmo">救援车按片区驻点，下面这些位置基本能在半小时内赶到现场：</p>
+    <ul class="area-list-vmo">
+      <li>佛山绕城高速全线，含各匝道出口与沿线服务区</li>
+      <li>佛山高铁站、长途汽车客运站、机场快速路周边</li>
+      <li>佛山老城区、佛山高新区、佛山经济开发区主干道</li>
+      <li>佛山下辖各区县县城及主要乡镇道路</li>
+      <li>商场地库、小区内部道路、园区厂区（限高 2.1 米以下车辆可进）</li>
+      <li>佛山周边景区道路、环湖环山公路等偏远路段</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 收费标准说明 -->
+<section class="sec-vmo">
+  <div class="wrap-vmo">
+    <h2 class="h2-vmo">收费怎么算，一次讲清楚</h2>
+    <p class="lead-vmo">救援行业最怕“拖到半路再谈价”，我们把这些规则提前摊开：</p>
+    <div class="fee-box-vmo">
+      <ul>
+        <li><b>拖车起步价</b>：按轿车／SUV／商务车分档，起步价含 5 公里，超出部分按公里累加。</li>
+        <li><b>搭电与换胎</b>：按次计费，同一辆车现场再次处理不重复收钱。</li>
+        <li><b>夜间与恶劣天气</b>：22:00 至次日 6:00、暴雨冰雪天气加收少量出车费，电话里先说清楚。</li>
+        <li><b>高速路段</b>：需配合路政拖离的，按高速救援规定执行，我们只收取服务费。</li>
+        <li><b>结算方式</b>：微信、支付宝、现金都行，需要发票的下单时提一句。</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 救援流程 -->
+<section class="sec-vmo sec-alt-vmo">
+  <div class="wrap-vmo">
+    <h2 class="h2-vmo">叫一次救援，只要四步</h2>
+    <div class="step-list-vmo">
+      <div class="step-vmo">
+        <span class="step-num-vmo">01</span>
+        <h3>电话说明情况</h3>
+        <p>报一下车型、故障表现和大体位置，有导航定位直接发过来，能省掉一半沟通时间。</p>
+      </div>
+      <div class="step-vmo">
+        <span class="step-num-vmo">02</span>
+        <h3>确认方案报价</h3>
+        <p>调度根据距离和作业难度给出预估价格，双方认可后马上派最近的救援车。</p>
+      </div>
+      <div class="step-vmo">
+        <span class="step-num-vmo">03</span>
+        <h3>师傅到场作业</h3>
+        <p>车辆到达后先摆好警示标志，再按约定方案施救，全程可在旁边看着。</p>
+      </div>
+      <div class="step-vmo">
+        <span class="step-num-vmo">04</span>
+        <h3>验收后结账</h3>
+        <p>确认车辆能正常行驶或已安全拖到指定地点，再按实际项目付款。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 核心优势 -->
+<section class="sec-vmo">
+  <div class="wrap-vmo">
+    <h2 class="h2-vmo">为什么佛山车主愿意找我们</h2>
+    <div class="adv-grid-vmo">
+      <div class="adv-item-vmo">
+        <h3>响应快，夜里也有人接</h3>
+        <p>调度中心 24 小时值守，凌晨两三点打电话同样有人应答，不会让你在路边干等。</p>
+      </div>
+      <div class="adv-item-vmo">
+        <h3>本地路况熟</h3>
+        <p>师傅常年跑佛山的快速路、绕城高速和乡镇道路，知道哪个出口好停车、哪段容易堵。</p>
+      </div>
+      <div class="adv-item-vmo">
+        <h3>设备齐全，少折腾</h3>
+        <p>平板拖车、绞盘、启动电源、千斤顶、补胎工具随车带，多数情况一次到场就能解决。</p>
+      </div>
+      <div class="adv-item-vmo">
+        <h3>报价透明不套路</h3>
+        <p>出车前把可能的费用讲明白，到场按说好的价格收，中途不加项目、不临时涨价。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 真实救援案例 -->
+<section class="sec-vmo sec-alt-vmo">
+  <div class="wrap-vmo">
+    <h2 class="h2-vmo">近期处理过的几单</h2>
+    <div class="case-item-vmo">
+      <h3>佛山绕城高速，车辆水温过高抛锚</h3>
+      <p>车主靠边停下后拨打电话，救援车 <em>18 分钟</em> 到达，现场判断水管破裂，直接平板拖至就近修理厂。</p>
+    </div>
+    <div class="case-item-vmo">
+      <h3>佛山高新区地库，车辆亏电无法启动</h3>
+      <p>车辆停放两周没动，地库限高 2.1 米，救援车进不去，师傅带便携电源步行下地库，<em>10 分钟</em> 搭电成功。</p>
+    </div>
+    <div class="case-item-vmo">
+      <h3>佛山高铁站附近，轮胎扎钉漏气</h3>
+      <p>车主赶时间，师傅到场后先补胎充气，让车辆能自行开到门店，全程用时 <em>不到 25 分钟</em>。</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec-vmo">
+  <div class="wrap-vmo">
+    <h2 class="h2-vmo">佛山道路救援常见问题</h2>
+    <div class="faq-item-vmo">
+      <h3>在佛山高速上抛锚，能直接上高速救援吗？</h3>
+      <p>可以。先打开双闪、把三角牌摆到车后 150 米外，人员撤到护栏外再打电话。高速路段通常需要路政配合拖离，我们会在电话里说明流程和分工。</p>
+    </div>
+    <div class="faq-item-vmo">
+      <h3>多久能到？会不会等很久？</h3>
+      <p>市区主干道一般 20 分钟左右，偏远乡镇和高速路段视距离而定。派车时调度会给一个预估时间，路上有变化会主动回电话。</p>
+    </div>
+    <div class="faq-item-vmo">
+      <h3>拖车过程中车子会被刮花吗？</h3>
+      <p>用平板车整体装载，不是拖轮式牵引，四轮离地固定；上车前会检查车身状况并拍照记录，避免后续产生争议。</p>
+    </div>
+    <div class="faq-item-vmo">
+      <h3>新能源车和改装车能救吗？</h3>
+      <p>能。纯电车、插混车用平板车运输，底盘较低的改装车会配合垫板和爬坡架，避免托底磕碰电池包。</p>
+    </div>
+    <div class="faq-item-vmo">
+      <h3>费用可以到现场再谈吗？</h3>
+      <p>可以先电话报价、到场确认。夜间、雨雪天或需要多台设备配合的情况会提前告知加收部分，不存在到了现场再改口。</p>
+    </div>
+    <div class="faq-item-vmo">
+      <h3>除了拖车，只换个备胎也接单吗？</h3>
+      <p>接。搭电、换胎、送油这类小活儿同样出车，佛山城区范围内按次收费，不设最低消费门槛。</p>
+    </div>
+  </div>
+</section>
+
+<!-- 联系转化 -->
+<section class="cta-vmo">
+  <div class="wrap-vmo">
+    <h2>车子动不了？现在打这个电话</h2>
+    <a class="cta-btn-vmo" href="tel:400-808-2010">400-808-2010</a>
+    <p class="cta-tip-vmo">悟空道路救援 · 全年无休 · 00:00—24:00 有人接听</p>
+  </div>
+</section>
+
+<footer class="foot-vmo">
+  <p><strong>悟空道路救援</strong> · 佛山24 小时道路救援</p>
+  <p>救援电话：<a href="tel:400-808-2010">400-808-2010</a></p>
+  <p>服务内容：拖车牵引 / 搭电启动 / 换胎补胎 / 应急送油 / 困境脱困 / 长途托运</p>
+  <p>© 2024 悟空道路救援 版权所有</p>
+</footer>
+
+<a class="call-float-vmo" href="tel:400-808-2010">一键呼叫 400-808-2010</a>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "悟空道路救援",
+  "description": "佛山24小时道路救援服务，提供拖车、搭电、换胎、送油、脱困与长途托运，就近派车快速到场。",
+  "telephone": "400-808-2010",
+  "areaServed": {
+    "@type": "Place",
+    "name": "佛山"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "佛山",
+    "addressCountry": "CN"
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "priceRange": "按车型与里程计费",
+  "serviceType": ["道路救援","拖车牵引","汽车搭电","换胎补胎","应急送油","长途托运"]
+}
+</script>
+
+</body>
+</html>
